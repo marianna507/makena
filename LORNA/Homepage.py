@@ -47,3 +47,8 @@ sunset_imgs = [
 
 st.image(sunset_imgs, width=400)
 st.sidebar.success("PAGES")
+
+
+import streamlit as st 
+
+#st.write("check out this [link](https://share.streamlit.io/mesmith027/streamlit_webapps/main/MC_pi/streamlit_app.py)")
