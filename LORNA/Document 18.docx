@@ -1,0 +1,50 @@
+Benefit of this web applicatin and website is thet is is freely open sourec thus improving cyber awareness because once the user is views the backend of the application he is privy to data displayed from the database and see the staticts and displays on data. it also easier to share information example when i was collecting  data most of the coomments i woould get is we cant share such sensitive information however sincs the sensitive part of the data is not isplayed it can be readily available for everyone.
+
+
+Django is an open-source framework for backend web applications based on Python — one of the top web development languages. Its main goals are simplicity, flexibility, reliability, and scalability. And when introduced to what is Django, Python and its features open up in a new way.
+
+Django has its own naming system for all functions and components (e.g., HTTP responses are called “views”). It also has an admin panel, which is deemed easier to work with than in Lavarel or Yii, and other technical features, including:
+Simple syntax;
+Its own web server;
+MVC (Model-View-Controller) core architecture;
+“Batteries included” (comes with all the essentials needed to solve solving common cases);
+An ORM (Object Relational Mapper);
+HTTP libraries;
+Middleware support; and
+A Python unit test framework
+
+
+ORM stands for Object Relational Mapper. The main goal of ORM is to send data between a database and models in an application. It maps a relation between the database and a model. So, ORM maps object attributes to fields of a table. The main advantage of using ORM is that it makes the entire development process fast and error-free. Essentially, it eliminates the need to write SQL code.
+
+
+Django is a framework, not a language. Python is the language in which Django is written.
+
+Django is a collection of Python libs allowing you to quickly and efficiently create a quality Web application, and is suitable for both frontend and backend.
+
+However, Django is pretty famous for its "Django admin", an auto generated backend that allows you to manage your website in a blink for a lot of simple use cases without having to code much.
+
+More precisely, for the front end, Django helps you with data selection, formatting, and display. It features URL management, a templating language, authentication mechanisms, cache hooks, and various navigation tools such as paginators.
+
+For the backend, Django comes with an ORM that lets you manipulate your data source with ease, forms (an HTML independent implementation) to process user input and validate data and signals, and an implementation of the observer pattern. Plus a tons of use-case specific nifty little tools.
+
+For the rest of the backend work Django doesn't help with, you just use regular Python. Business logic is a pretty broad term.
+
+You probably want to know as well that Django comes with the concept of apps, a self contained pluggable Django library that solves a problem. The Django community is huge, and so there are numerous apps that do specific business logic that vanilla Django doesn't
+
+
+It seems you're actually talking about an MVC (Model-View-Controller) pattern, where logic is separated into various "tiers". Django, as a framework, follows MVC (loosely). You have models that contain your business logic and relate directly to tables in your database, views which in effect act like the controller, handling requests and returning responses, and finally, templates which handle presentation.
+
+Django isn't just one of these, it is a complete framework for application development and provides all the tools you need for that purpose.
+
+Frontend vs Backend is all semantics. You could potentially build a Django app that is entirely "backend", using its built-in admin contrib package to manage the data for an entirely separate application. Or, you could use it solely for "frontend", just using its views and templates but using something else entirely to manage the data. Most usually, it's used for both. The built-in admin (the "backend"), provides an easy way to manage your data and you build apps within Django to present that data in various ways. However, if you were so inclined, you could also create your own "backend" in Django. You're not forced to use the default admin.
+
+
+
+
+
+
+
+
+
+
+
